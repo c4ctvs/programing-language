@@ -1,0 +1,166 @@
+# depslib dependency file v1.0
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\binddef.cc
+	"BindDef.h"
+	<cmath>
+	<utility>
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\binddef.h
+	<optional>
+	<string>
+	<utility>
+	"Expr.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\expr.h
+	<cassert>
+	<memory>
+	<optional>
+	<string>
+	"BindingUsage.h"
+	"IStatment.h"
+	"parser.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\bindingusage.h
+	<memory>
+	<string>
+	<utility>
+	"IStatment.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\istatment.h
+	<optional>
+	<string>
+	"IValue.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\ivalue.h
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\parser.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstring>
+	<iostream>
+	<iterator>
+	<ostream>
+	<string>
+	<utility>
+	"IStatment.h"
+	"IValue.h"
+	"env.h"
+	"utils.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\env.h
+	<optional>
+	<string>
+	<unordered_map>
+	"IStatment.h"
+	"IValue.h"
+	"FuncDef.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\funcdef.h
+	<utility>
+	"Block.h"
+	"IStatment.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\block.h
+	<optional>
+	<string>
+	<vector>
+	"IStatment.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\utils.h
+	<cassert>
+	<cstdlib>
+	<iostream>
+	<optional>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\bindingusage.cc
+	"BindingUsage.h"
+	"ErrorStatment.h"
+	"Null.h"
+	"env.h"
+	"utils.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\errorstatment.h
+	<utility>
+	"IStatment.h"
+	"IValue.h"
+	"utils.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\null.h
+	<cmath>
+	"BindDef.h"
+	"IValue.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\block.cc
+	"Block.h"
+	<cmath>
+	"Null.h"
+	"parser.h"
+	"utils.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\conditional.cc
+	"Conditional.h"
+	<cmath>
+	"Null.h"
+	"utils.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\conditional.h
+	"Block.h"
+	"IStatment.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\env.cc
+	"env.h"
+	<string>
+	"utils.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\errorstatment.cc
+	"ErrorStatment.h"
+	<cmath>
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\expr.cc
+	"Expr.h"
+	<utility>
+	"Block.h"
+	"ErrorStatment.h"
+	"Null.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\funccall.cc
+	"FuncCall.h"
+	<utility>
+	"ErrorStatment.h"
+	"FuncDef.h"
+	"Null.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\funccall.h
+	<vector>
+	"IStatment.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\funcdef.cc
+	"FuncDef.h"
+	<optional>
+	"Null.h"
+	"utils.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\istatment.cc
+	"IStatment.h"
+	"BindDef.h"
+	"BindingUsage.h"
+	"Block.h"
+	"Conditional.h"
+	"FuncCall.h"
+	"FuncDef.h"
+	"Loop.h"
+
+1632156702 c:\users\zuzan\superjenzyk\programing-language\language\loop.h
+	"Block.h"
+	"IStatment.h"
+
+1632156702 source:c:\users\zuzan\superjenzyk\programing-language\language\loop.cc
+	"Loop.h"
+	<cmath>
+	"Null.h"
+	"utils.h"
+
