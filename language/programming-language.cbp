@@ -32,7 +32,38 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="BindDef.cc" />
+		<Unit filename="BindDef.h" />
+		<Unit filename="BindingUsage.cc" />
+		<Unit filename="BindingUsage.h" />
+		<Unit filename="Block.cc" />
+		<Unit filename="Block.h" />
+		<Unit filename="Conditional.cc" />
+		<Unit filename="Conditional.h" />
+		<Unit filename="ErrorStatment.cc" />
+		<Unit filename="ErrorStatment.h" />
+		<Unit filename="Expr.cc" />
+		<Unit filename="Expr.h" />
+		<Unit filename="FuncCall.cc" />
+		<Unit filename="FuncCall.h" />
+		<Unit filename="FuncDef.cc" />
+		<Unit filename="FuncDef.h" />
+		<Unit filename="IStatment.cc" />
+		<Unit filename="IStatment.h" />
+		<Unit filename="IValue.h" />
+		<Unit filename="Loop.cc" />
+		<Unit filename="Loop.h" />
+		<Unit filename="Matrix.cc" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="Null.cc" />
+		<Unit filename="Null.h" />
+		<Unit filename="Stack.h" />
+		<Unit filename="env.cc" />
+		<Unit filename="env.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="parser.cc" />
+		<Unit filename="parser.h" />
+		<Unit filename="utils.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
